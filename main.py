@@ -19,14 +19,14 @@ cases = OrderedDict()
 # Ask the user what county they want to analyze.
 
 countyquest = input(
-    "What county would you like to see the growth of covid-19 rate for?")
+    "What city would you like to see the growth of covid-19 rate for? ")
 firstlt = countyquest[0]
 create_new_dir(firstlt)
 
 # Ask the user what day in the future they want us to prediction
 
 statquest = input(
-    "How many days in the future would you like to see the prediction for?")
+    "How many days in the future would you like to see the prediction for? ")
 
 if statquest != "today":
     statquest = int(statquest)
